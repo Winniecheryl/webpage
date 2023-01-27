@@ -1,0 +1,85 @@
+h1 {
+    color: rgb(228, 155, 15);
+}
+ p {
+    
+    color: rgb(110, 38, 14);
+}
+body{background-color: rgb(245, 245, 245);}
+.hello{
+position:absolute;
+height:auto;
+left:0px;
+width:100px;
+}
+
+nav{
+color:rgb(228, 155, 15);
+
+}
+
+span{
+color: rgb(128, 0, 0);
+}
+button{
+color: rgb(128, 128, 0);
+}
+svg{
+color: rgb(128, 128, 0);
+}
+path{
+color: rgb(128, 128, 0);
+}
+circle{
+color: rgb(128, 128, 0);
+}
+h4{
+color: rgb(110, 38, 14);
+text-align: center;
+}
+
+.main {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.section {
+width: 50%;
+height: 100%;
+}  
+video {
+width: 100%;
+height: 56.25%;
+margin-top: 21.875%;
+}
+.column {
+width: 100%;
+}
+
+@media (min-width: 600px) {
+.column {
+  width: 50%;
+}
+}
+main {
+background: #FFFFFF;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+div {
+background: #FFFFFF;
+flex-basis: 100%;
+height: px;
+margin-bottom: 0.5rem;
+}
+@media (min-width: 600px) {
+main {
+  flex-wrap: nowrap;
+}
+
+div {
+  flex-basis: 100%;
+}
+}
+
